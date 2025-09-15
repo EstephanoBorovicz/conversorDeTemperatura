@@ -16,7 +16,7 @@ public class moduloDeConversaoDeTemperatura {
 
     public void calcularConversao(){
         temperaturaEmFahrenheit =temperaturaEmCelsius*1.8+32;
-        temperaturaEmKelvin = temperaturaEmCelsius + 273;
+        temperaturaEmKelvin = temperaturaEmCelsius + 273.15;
         exibirResultado();
     }
     public void exibirResultado(){
